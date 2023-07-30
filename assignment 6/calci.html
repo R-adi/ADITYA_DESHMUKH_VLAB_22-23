@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <style>
+        body
+        {  margin: 1cm;
+            padding: 1cm;   
+            padding-right: 1cm;
+            margin-top: 2cm;
+        }
+        .add,.sub,.mul,.div
+        {
+            margin: 1cm;
+            background-color: rgb(229, 234, 244);
+            border-style:solid;
+            border-width: 2px;
+            padding:17px;
+            background-color: rgb(4, 4, 45);
+            color: antiquewhite;
+            
+        }    
+        .no1{
+            border-style: groove;
+          border-width:4px ;
+          padding: 1.5cm;
+          background-color: aqua;
+          font-size: 130%;
+        
+
+        }
+        .no2{
+          border-style:groove;
+          border-width:4px ;
+          padding: 1.5cm;
+          background-color: blueviolet;
+          color: aliceblue;
+          font-size: 130%;
+          
+        }
+        input{
+            padding: 0.4cm;
+            font-size: 120%;
+        }
+     
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+     <label class="no1">Enter 1st no. <input type="number" id="input1"></label></label> &nbsp;
+    <label class="no2">Enter 2nd no. <input type="number" id="input2"></label><br><br><br>
+    <button onclick="addition()" class="add">Addition</button>
+    <button onclick="subtraction()" class="sub">Subtraction</button><br><br>
+    <button onclick="multiplication()" class="mul">Multiplication</button>
+    <button onclick="division()" class="div">Division</button><br><br>
+    <h5>Output : <input id="output" disabled></h5>
+<script src="calci.js"></script>
+</body>
+</html>

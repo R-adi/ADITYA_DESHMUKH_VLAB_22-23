@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="new3.js" defer></script>
+    <style>
+        input{
+            padding: 0.2cm;
+        }
+        h1{
+            font-family: sans-serif;
+            color: rgb(62, 65, 73);
+        }
+        
+    </style>
+</head>
+<body style="background-color: rgb(215, 230, 230); margin-left: 30%;">
+    <h1>String Calculator</h1><br><br>
+    <h3>Enter 2 strings</h3>
+   <input type="text" id="my" placeholder="string 1;">
+   <input type="text" id="my1" placeholder="string 2;">
+   <button class="bt" onclick="display1()" style="padding: 0.2cm;">Concat</button>
+   <button class="bt" onclick="low()" style="padding: 0.2cm;">Lowercase</button>
+   <button class="bt" onclick="upp()" style="padding: 0.2cm;">Upperrcase</button><br>
+   <h3>for slicing 1st string enter the range :</h3>
+   <input type="number" id="num" placeholder="min">
+   <input type="number" id="num1" placeholder="max">
+   <button class="bt" onclick="slc()" style="padding: 0.2cm;">Slice</button>
+
+   <div style="border: solid; height: 3cm; margin: 1cm; padding: 1cm; width: 8cm; background-color: rgb(255, 255, 255);" >
+
+   <h3 id="dis" style="text-align: center;"></h3>
+   </div>
+   <style>
+   
+   .bt{
+    background-color: black;
+    color: aliceblue;
+   }
+
+   </style>
+    
+
+</body>
+</html>

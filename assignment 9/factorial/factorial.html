@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+    <script src="factorial.js" defer></script>
+
+    <style>
+        div {
+            background-color: rgb(209, 189, 159);
+            margin-left: 40%;
+            margin-right: 30%;
+            margin-top: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            box-shadow: 0 10px 10px;
+        }
+
+        h1 {
+            font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            color: rgb(58, 58, 45);
+        }
+
+        .inp {
+            padding: 10px 20px;
+            font-family:Haettenschweiler;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            font-family: Oxygen;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .output {
+            padding: 10px 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <center>
+        <div>
+
+            <h1>Calculating Factorial </h1>
+            <input type="text" class="inp" id="n" />
+
+            <br><br>
+            <input type="button" class="btn" value="Click" onclick="factorial();" />
+
+
+            <br><br>
+            <input type="text" class="output" id="display" disabled> 
+
+
+        </div>
+    </center>
+</body>
+
+</html>

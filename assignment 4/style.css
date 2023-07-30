@@ -1,0 +1,27 @@
+body{
+    padding: 1cm;
+    border: dotted darkblue;
+    margin: 1cm;
+    background-color: rgb(244, 238, 230);
+}
+.table,th,tr,td{ border: 2px solid;
+    border-collapse: collapse;
+    padding:4px;
+}
+th{
+background-color: yellow;
+}
+.head{
+
+        border: 3px rgb(209, 36, 36) solid;
+        border-radius: 8px;
+        text-align: center;
+        background-color: rgb(212, 237, 237); 
+}
+.skill{
+    list-style-type:square;
+}
+a{
+    font-size: 120%;
+    font-weight: bold;
+}

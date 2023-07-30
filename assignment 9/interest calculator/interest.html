@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interest Calculator</title>
+    <script src="interest.js"></script>
+</head>
+
+<style>
+    body{
+        margin-left: 40%;
+        background-color: rgb(197, 197, 162);
+    }
+    input{
+        padding: 0.5cm;
+        font-size: 130%;
+    }
+    button{
+        padding: 0.5cm;
+        font-size: 120%;
+        border-radius: 0.4cm;
+        background-color: rgb(64, 62, 69);
+        color: rgb(255, 255, 255);
+    }
+    h1{
+        font-family:'Franklin Gothic Medium';
+        color: rgb(45, 52, 50);
+         
+    }
+   
+    
+</style>
+<body>
+    <h1>Simple Interest Calculator</h1>
+    
+        <h2>cost :</h2>
+        <input type="number" id="cost" required><br><br>
+        
+        <h2>Time (in years) :</h2>
+        <input type="number" id="time" required><br><br>
+        
+        <button onclick="calculateInterest()">Calculate</button><br><br>
+        
+    <div id="result" style="font-size: 120%; border: solid; height: 2.5cm ; padding: 0.2cm; background-color: azure; width: 8cm;"></div>
+
+   
+</body>
+</html>
